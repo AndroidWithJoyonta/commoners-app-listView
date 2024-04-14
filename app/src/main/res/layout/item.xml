@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    >
+
+    <LinearLayout
+        android:id="@+id/layItem"
+        android:layout_width="match_parent"
+        android:layout_height="160dp"
+        android:orientation="horizontal"
+        android:background="@drawable/bg"
+        android:layout_margin="10dp"
+
+        >
+
+         <ImageView
+             android:visibility="gone"
+        android:id="@+id/imageView"
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:src="@mipmap/ic_launcher"
+             android:layout_gravity="center"
+             />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:layout_marginLeft="15dp"
+
+            >
+
+            <TextView
+                android:id="@+id/TvTitle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Title"
+                android:textStyle="bold"
+                android:textColor="#000"
+                android:layout_marginTop="10dp"
+                android:textSize="27dp"/>
+
+            <TextView
+                android:id="@+id/TvDes"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Desciption"
+                android:textStyle="bold"
+                android:layout_marginTop="8dp"
+                android:maxLines="1"
+                android:textSize="17sp"/>
+
+            <TextView
+                android:id="@+id/TvPrice"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Price"
+                android:textStyle="bold"
+                android:layout_marginTop="8dp"
+                android:textSize="20sp"/>
+
+            <TextView
+                android:id="@+id/TvBrand"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Brad"
+                android:textStyle="bold"
+                android:layout_marginTop="8dp"
+                android:textSize="20sp"/>
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+
+</LinearLayout>
